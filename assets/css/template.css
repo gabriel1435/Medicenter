@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    height: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 122px;
+}
+
+#container {
+    width: 993px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #888888;
+    font-family: Arial;
+}
+
+nav #active a, nav a:hover {
+    background-color: #42b3e5;
+    color: #fff;
+}
