@@ -1,10 +1,6 @@
-* {
-    font-family: Arial;
-}
-
 body{
     margin: 0;
-    height: 0;  
+    height: 0;
 }
 
 header {
@@ -99,66 +95,6 @@ nav .active a, nav a:hover {
     display: flex;
 }
 
-.banner1, .banner3, .banner2 {
+.banner1, .banner, .banner3 {
     flex: 1;
-    color: #fff;
-    padding: 21px;
-}
-
-.banner1 {
-    background-color: #42b3e5;
-}
-
-.banner2 {
-    background-color: #0384ce;
-}
-
-.banner3 {
-    background-color: #3156a3;
-}
-
-.banner_title {
-    font-size: 26px;
-}
-
-.banner_desc {
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 0px #aaa;
-    display: flex;
-    flex-direction: column;
-}
-
-.banner-options a {
-    display: inline-block;
-    border: 1px solid #fff;
-    padding: 5px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
-}
-
-.list {
-    width: 255px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.list2 {
-    width: 255px;
-    display: flex;
-    justify-content: space-between
-}
-
-.list3 {
-    width: 255px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.banner_desc .list, .banner_desc .list2, .banner_desc .list3 {
-    margin-top: 5px;
-    padding-bottom: 7px;
-    border-bottom: 1px solid #4468b2;
 }
