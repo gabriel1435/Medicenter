@@ -9,13 +9,13 @@ header {
     height: 122px;
 }
 
-#container {
+.container {
     width: 993px;
     display: flex;
     justify-content: space-between;
 }
 
-#logo {
+.logo {
     display: flex;
     align-items: center;
 }
@@ -24,7 +24,7 @@ img {
     align-items: center;
 }
 
-#menu{
+.menu{
     display: flex;
     align-items: center;
 }
@@ -46,7 +46,55 @@ nav a {
     font-family: Arial;
 }
 
-nav #active a, nav a:hover {
+nav .active a, nav a:hover {
     background-color: #42b3e5;
     color: #fff;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url( '../images/img1.jpg' );
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column {
+    flex-flow: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner_headline h2 {
+    color: #fff;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner-options {
+    height: 211px;
+    display: flex;
+}
+
+.banner1, .banner, .banner3 {
+    flex: 1;
 }
