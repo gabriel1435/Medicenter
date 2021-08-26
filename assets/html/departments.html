@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>MediCenter</title>
+        <link rel="stylesheet" href="assets/css/template.css" type="text/css">
+
+        <style type="text/css">
+        * {
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+    height: 0;  
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 122px;
+}
+
+.container {
+    width: 993px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #888888;
+    font-family: Arial;
+}
+
+nav .active_depar a, nav a:hover {
+    background-color: #42b3e5;
+    color: #fff;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url( '../images/img1.jpg' );
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column {
+    flex-flow: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner_headline h2 {
+    color: #fff;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner-options {
+    height: 211px;
+    display: flex;
+}
+
+.banner1, .banner3, .banner2 {
+    flex: 1;
+    color: #fff;
+    padding: 21px;
+}
+
+.banner1 {
+    background-color: #42b3e5;
+}
+
+.banner2 {
+    background-color: #0384ce;
+}
+
+.banner3 {
+    background-color: #3156a3;
+}
+
+.banner_title {
+    font-size: 26px;
+}
+
+.banner_desc {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0px #aaa;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-options a {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.list {
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list2 {
+    width: 255px;
+    display: flex;
+    justify-content: space-between
+}
+
+.list3 {
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_desc .list, .banner_desc .list2, .banner_desc .list3 {
+    margin-top: 5px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #4468b2;
+}
+
+hr {
+    height: 35px;
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="../images/logo.png"></a>
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="pages.html">Pages</a></li>
+                            <li class="active_depar"><a href="departments.html">Departments</a></li>
+                            <li><a href="timeteble.html">Timetable</a></li>
+                            <li><a href="Galery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section id="banner">
+            <div class="container column">
+                <div class="banner_headline">
+                    <h1>Top notch experience</h1>
+                    <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+                </div>
+                <div class="banner-options">
+                    <div class="banner1">
+                        <div class="banner_title">Emergency Case</div>
+                        <div class="banner_desc">If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</div>
+                        <a href="">Read more  --></a>
+                    </div>
+
+                    <div class="banner2">
+                        <div class="banner_title">Doctors Timetable</div>
+                        <div class="banner_desc">Here at medicenter we have individual doctor's list. Click read more below to see services and current timetable for our doctor's.</div>
+                        <a href="">Read more  --></a>
+                    </div>
+
+                    <div class="banner3">
+                        <div class="banner_title">Opening Hours</div>
+                        <div class="banner_desc">
+                        <div class="list">
+                            Monday - Friday
+                            <div class="hours1">8.00 - 17.00</div>
+                        </div>
+
+                        <div class="list2">
+                            Saturday
+                            <div class="hours2">9.30 - 17.30</div>
+                        </div>
+
+                        <div class="list3">
+                            Sunday
+                            <div class="hours3">9.30 - 15.00</div>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
